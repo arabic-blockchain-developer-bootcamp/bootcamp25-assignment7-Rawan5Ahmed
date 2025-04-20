@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Assignment7 is ERC20 {
     // Constructor to initialize the token
     // Fill in the parameters for the token name and symbol
-    constructor() ERC20(rawan,rwn) {}
+    constructor() ERC20("rawan","rwn") {}
 
     // Function to mint tokens
     // Fill in the visibility modifier to be external
